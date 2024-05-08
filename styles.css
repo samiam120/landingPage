@@ -42,3 +42,38 @@ ul {
   justify-content: space-around;
   margin-bottom: 70px;
 }
+
+.body-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.quote{
+  background-color: lightgray;
+}
+
+.box{
+  border: 5px solid rgb(19, 139, 219);
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.footer{
+  display: flex;
+  background-color: #1f2937;
+  height: 100px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action{
+
+}
+.blue-box{
+  border: 1px solid lightblue;
+}
+
