@@ -17,6 +17,13 @@ ul {
   gap: 15px;
 }
 
+button{
+  background-color: #3882F6;
+  padding: 10px 25px;
+  border-radius: 8px;
+  color: white;
+}
+
 .header {
   background-color: #1f2937;
   color: white;
@@ -52,13 +59,31 @@ ul {
 
 .quote{
   background-color: lightgray;
+  font-size: 36px;
+  padding: 100px;
+  font-family: light italic;
+  color: #1F2937;
+  margin-bottom: 100px;
 }
 
+.random-header{
+  text-align: center;
+  padding: 20px;
+}
+
+.random-information{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  
+}
 .box{
   border: 5px solid rgb(19, 139, 219);
   border-radius: 10px;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  flex: 0 0 auto;
 }
 
 .footer{
@@ -70,9 +95,6 @@ ul {
   align-items: center;
 }
 
-.call-to-action{
-
-}
 .blue-box{
   border: 1px solid lightblue;
 }
