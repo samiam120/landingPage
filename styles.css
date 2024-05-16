@@ -56,27 +56,18 @@ button {
   flex-direction: column;
 }
 
-.quote {
-  background-color: lightgray;
-  font-size: 36px;
-  padding: 100px;
-  font-family: light italic;
-  color: #1f2937;
-}
 
 .random-header {
   text-align: center;
   padding: 20px;
 }
 
-.random-information {
+.random-information{
   display: flex;
   flex-direction: column;
-
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
-  padding: 30px;
 }
 
 
@@ -84,6 +75,7 @@ button {
 .box-text{
   display: flex;
   gap: 40px;
+
 }
 
 .box-text p{
@@ -91,9 +83,6 @@ button {
   text-align: center;
 }
 
-.box-text{
-  display: flex;
-}
 .box {
   border: 3px solid rgb(19, 139, 219);
   border-radius: 10px;
@@ -101,6 +90,35 @@ button {
   height: 150px;
   flex: 0 0 auto;
 }
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-family: light italic;
+  color: #1F2937;
+
+}
+
+.quote{
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  padding: 50px 0;
+}
+
+.author{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
 
 .footer {
   display: flex;
