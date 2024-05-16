@@ -17,8 +17,8 @@ ul {
   gap: 15px;
 }
 
-button{
-  background-color: #3882F6;
+button {
+  background-color: #3882f6;
   padding: 10px 25px;
   border-radius: 8px;
   color: white;
@@ -39,54 +39,70 @@ button{
   margin-bottom: 70px;
 }
 
-.logo{
+.logo {
   font-size: 20px;
   font-weight: 600;
 }
 
-.header-content{
+.header-content {
   display: flex;
   justify-content: space-around;
   margin-bottom: 70px;
 }
 
-.body-container{
+.body-container {
   flex: 1;
   display: flex;
   flex-direction: column;
-
 }
 
-.quote{
+.quote {
   background-color: lightgray;
   font-size: 36px;
   padding: 100px;
   font-family: light italic;
-  color: #1F2937;
-  margin-bottom: 100px;
+  color: #1f2937;
 }
 
-.random-header{
+.random-header {
   text-align: center;
   padding: 20px;
 }
 
-.random-information{
+.random-information {
   display: flex;
+  flex-direction: column;
+
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
-  
+  padding: 30px;
 }
-.box{
-  border: 5px solid rgb(19, 139, 219);
+
+
+.box-container,
+.box-text{
+  display: flex;
+  gap: 40px;
+}
+
+.box-text p{
+  max-width: 150px;
+  text-align: center;
+}
+
+.box-text{
+  display: flex;
+}
+.box {
+  border: 3px solid rgb(19, 139, 219);
   border-radius: 10px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   flex: 0 0 auto;
 }
 
-.footer{
+.footer {
   display: flex;
   background-color: #1f2937;
   height: 100px;
@@ -94,8 +110,3 @@ button{
   justify-content: center;
   align-items: center;
 }
-
-.blue-box{
-  border: 1px solid lightblue;
-}
-
